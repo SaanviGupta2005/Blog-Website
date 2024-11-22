@@ -11,7 +11,7 @@ const { Post, Comment } = require('./models/post');
 
 const app = express();
 
-mongoose.connect('mongodb://localhost:27017/blog');
+mongoose.connect('mongodb+srv://guptasaanvi2005:saanvi@cluster0.qhum7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
